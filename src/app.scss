@@ -19,7 +19,21 @@ a {
   text-decoration: none;
   color: inherit;
 }
-section {
+.section {
   height: 100vh;
   scroll-snap-align: center;
 }
+
+// .course {
+//   width: 100%;
+//   height: 100vh;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+// .box {
+//   width: 200px;
+//   height: 200px;
+//   background-color: white;
+// }

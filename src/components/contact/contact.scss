@@ -13,9 +13,51 @@
       flex: 1;
       display: flex;
       flex-direction: column;
+      gap: 40px;
+      h1 {
+        font-size: 90px;
+        line-height: 80px;
+      }
+      .item {
+        p {
+          font-size: 14px;
+        }
+      }
     }
     .formContainer {
       flex: 1;
+      position: relative;
+      .phoneSvg {
+        position: absolute;
+        margin: auto;
+        stroke: orange;
+      }
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        input,
+        textarea {
+          padding: 20px;
+          outline: none;
+          background-color: transparent;
+          border: 1px solid white;
+          color: white;
+          border-radius: 5px;
+          &::placeholder {
+            color: white;
+          }
+        }
+        button {
+          background: orange;
+          padding: 10px;
+          outline: none;
+          border: none;
+          font-weight: 500;
+          cursor: pointer;
+        }
+      }
     }
   }
 }

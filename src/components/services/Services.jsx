@@ -51,7 +51,7 @@ const Services = () => {
       variants={varients}
       ref={ref}
       initial={"initial"}
-      animate={isView && "animate"}
+      animate={ "animate"}
     >
       <motion.div className="textContainer" variants={varients}>
         <p>
@@ -89,33 +89,7 @@ const Services = () => {
             <button>click Here</button>
           </motion.div>
         ))}
-        {/* <div className="box">
-          <h2>Title</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum unde
-            tenetur consequatur quia eligendi ducimus. Dignissimos iusto veniam
-            odio dolores eum,
-          </p>
-          <button>click Here</button>
-        </div>
-        <div className="box">
-          <h2>Title</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum unde
-            tenetur consequatur quia eligendi ducimus. Dignissimos iusto veniam
-            odio dolores eum,
-          </p>
-          <button>click Here</button>
-        </div>
-        <div className="box">
-          <h2>Title</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum unde
-            tenetur consequatur quia eligendi ducimus. Dignissimos iusto veniam
-            odio dolores eum,
-          </p>
-          <button>click Here</button>
-        </div> */}
+        
       </motion.div>
     </motion.div>
   );
